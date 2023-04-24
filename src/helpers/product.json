@@ -3,7 +3,7 @@
         "productCode": "MJUM8066-GYDZ",
         "name": "Lambswool Crew Neck Jumper",
         "vendor": "Sunspel",
-        "price": 75,
+        "price": 799,
         "alt": "lambswool crew neck jumper",
         "image": "/products/pdp1.jpeg",
         "colorOptions": [
@@ -24,28 +24,28 @@
     },
     {
         "name": "Classic T-Shirt",
-        "price": 75,
+        "price": 759,
         "alt": "classic t-shirt 1",
         "image": "/products/shirt1.jpg",
         "tags": ["shirt", "men"]
     },
     {
         "name": "Classic T-Shirt",
-        "price": 75,
+        "price": 759,
         "alt": "classic t-shirt 2",
         "image": "/products/shirt2.jpg",
         "tags": ["shirt", "men"]
     },
     {
         "name": "Classic T-Shirt",
-        "price": 75,
+        "price": 799,
         "alt": "classic t-shirt 3",
         "image": "/products/shirt3.jpg",
         "tags": ["shirt", "men"]
     },
     {
         "name": "Relaxed-fit graphic T-shirt",
-        "price": 13.90,
+        "price": 1390,
         "alt": "relaxed t shirt woman",
         "image": "/products/woman1.jpeg",
         "tags": ["woman"],
@@ -53,14 +53,14 @@
     },
     {
         "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
+        "price": 1590,
         "alt": "relaxed t shirt woman",
         "image": "/products/woman2.jpeg",
         "tags": ["woman"]
     },    
     {
         "name": "Relaxed-fit graphic T-shirt",
-        "price": 13.90,
+        "price": 980,
         "alt": "relaxed t shirt woman",
         "image": "/products/woman3.jpeg",
         "tags": ["woman"],
@@ -68,14 +68,14 @@
     },
     {
         "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
+        "price": 799,
         "alt": "relaxed t shirt woman",
         "image": "/products/woman4.jpeg",
         "tags": ["woman"]
     },
     {
         "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
+        "price": 999,
         "alt": "relaxed t shirt woman",
         "image": "/products/woman5.jpeg",
         "tags": ["woman"],
@@ -84,30 +84,30 @@
     },
     {
         "name": "Relaxed-fit graphic T-shirt",
-        "price": 21,
+        "price": 789,
         "alt": "relaxed t shirt woman",
         "image": "/products/woman6.jpeg",
         "tags": ["woman"]
     },
     {
         "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
+        "price": 1390,
         "alt": "relaxed t shirt woman",
         "image": "/products/woman3.jpeg",
         "tags": ["woman"]
     },
     {
         "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
+        "price": 899,
         "alt": "relaxed t shirt woman",
         "image": "/products/woman2.jpeg",
         "tags": ["woman"],
-        "originalPrice": 31.50
+        "originalPrice": 1099
 
     },
     {
         "name": "Relaxed-fit graphic T-shirt",
-        "price": 21,
+        "price": 799,
         "alt": "relaxed t shirt woman",
         "image": "/products/woman1.jpeg",
         "tags": ["woman"]

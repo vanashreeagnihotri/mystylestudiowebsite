@@ -4,12 +4,12 @@ import { isNumeric } from '../../helpers/general';
 
 const CurrencyFormatter = ({
   amount,
-  currency = 'USD',
+  currency = 'INR',
   appendZero = false,
-  useDollar = false,
+  useINR = false,
 }) => {
   let displayAmount =
-    (typeof amount !== 'number' && parseFloat(amount?.replace('$', ''))) ||
+    (typeof amount !== 'number' && parseFloat(amount?.replace('Rs', ''))) ||
     amount;
   /* Set language display */
   const languageCode =
@@ -23,11 +23,11 @@ const CurrencyFormatter = ({
     style: 'currency',
     currency,
   });
-  let symbol = '$';
+  let symbol = 'Rs';
   let formattedPrice = formatObject.format(displayAmount);
   if ('formatToParts' in formatObject) {
     const formattedPriceParts = formatObject.formatToParts(displayAmount);
-    if (useDollar === false) symbol = formattedPriceParts[0].value;
+    if (useINR === false) symbol = formattedPriceParts[0].value;
     const currencyValue = formattedPriceParts.find(
       (obj) => obj.type === 'currency'
     );
@@ -36,7 +36,7 @@ const CurrencyFormatter = ({
     );
     formattedPrice = formattedPrice.replace(currencyValue.value, '');
     if (decimalValue && decimalValue.value === '00' && !appendZero) {
-      formattedPrice = formattedPrice.replace(`.${decimalValue.value}`, '');
+      formattedPrice = formattedPrice.replace(`.Rs{decimalValue.value}`, '');
     }
   } else {
     // new Intl.NumberFormat is not supported; return amount with dollar sign

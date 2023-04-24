@@ -15,42 +15,42 @@ const OrderPage = (props) => {
 
   const sampleOrder1 = {
     id: '2',
-    orderPlaced: 'Oct 12, 2021',
-    lastUpdate: 'Oct 12, 2021',
+    orderPlaced: 'April 22, 2023',
+   
     status: 'pending',
     items: [
       {
         image: '/products/shirt1.jpg',
         alt: 'order 1 product 1',
         name: 'Lambswool Crew Neck Jumper',
-        quantity: '2',
-        price: '100',
+        quantity: '1',
+        price: '799',
       },
-      {
+      /*{
         image: '/products/shirt2.jpg',
         alt: 'order 1 product 2',
         name: 'Lambswool Crew Neck Jumper',
         quantity: '1',
         price: '300',
-      },
+      },*/
     ],
     shippingAddress: {
       name: 'John Doe',
       address: '1 Steam Mill Lane, Haymerket',
-      postal: '2000',
-      state: 'NSW',
-      country: 'Australia',
+      postal: '400001',
+     
+      country: 'India',
     },
     billingAddress: {
       name: 'John Doe',
       address: '1 Steam Mill Lane, Haymerket',
-      postal: '2000',
-      state: 'NSW',
-      country: 'Australia',
+      postal: '400001',
+     
+      country: 'India',
     },
   };
 
-  const sampleOrder2 = {
+  /*const sampleOrder2 = {
     id: '1',
     orderPlaced: 'Oct 11, 2021',
     lastUpdate: 'Oct 11, 2021',
@@ -78,7 +78,7 @@ const OrderPage = (props) => {
       state: 'NSW',
       country: 'Australia',
     },
-  };
+  };*/
 
   return (
     <Layout>

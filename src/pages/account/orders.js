@@ -99,7 +99,7 @@ const OrderPage = (props) => {
         </div>
 
         <OrderItem order={sampleOrder1} headerStyling={styles.gridStyle} />
-        <OrderItem order={sampleOrder2} headerStyling={styles.gridStyle} />
+        //<OrderItem order={sampleOrder2} headerStyling={styles.gridStyle} />
       </AccountLayout>
     </Layout>
   );
